@@ -1,1 +1,41 @@
+*{
+    box-sizing: border-box;
+}
 
+.column_one{
+    float: left;
+    width: 25%;
+    background-color: #70592f;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.column_two{
+    float: left;
+    width: 25%;
+    background-color: #F2dbae;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.column_three{
+    float: left;
+    width: 25%;
+    background-color: #f0bf65;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.column_four{
+    float:left;
+    width: 25%;
+    background-color: #706551;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
